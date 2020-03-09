@@ -1,0 +1,40 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $color-text-primary;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 400;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.t-section-heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  margin-bottom: 1.6rem;
+
+  @include respond($bp-large) {
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 3.2rem;
+  }
+}
+
+.t-section-subheading {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  margin-bottom: 1.6rem;
+
+  @include respond($bp-large) {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+}

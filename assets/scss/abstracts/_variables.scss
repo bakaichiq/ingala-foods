@@ -1,0 +1,24 @@
+/// Container's maximum width
+/// @type Length
+$max-width: 900px !default;
+
+/// Breakpoints
+/// @type Length
+$bp-small: 22.5em;
+$bp-small-lg: 33.75em;
+$bp-medium: 48em;
+$bp-large: 62em;
+$bp-large-extra: 75em;
+
+//color variables
+/// Base colors
+/// @type Color
+$color-primary: #639D00 !default;
+$color-secondary: rgb(227, 0, 15) !default;
+$color-text-primary: rgb(50, 50, 50) !default;
+$color-white: rgb(255, 255, 255) !default;
+$color-black: rgb(0, 0, 0) !default;
+$color-light-green: rgb(39, 174, 96) !default;
+
+// Container's maximum width
+$max-width-container: 118rem;

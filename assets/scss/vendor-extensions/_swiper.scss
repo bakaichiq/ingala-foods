@@ -1,0 +1,22 @@
+.c-slider {
+  .swiper-pagination-bullet {
+    width: 1rem;
+    height: 1rem;
+    background: rgb(1, 1, 1);
+  }
+  .swiper-pagination-bullet-active {
+    background: $color-primary;
+  }
+}
+
+.c-slider-preview {
+  .swiper-pagination-bullet {
+    width: 0.6rem;
+    height: 0.6rem;
+    background: $color-white;
+    border: 1px solid $color-primary;
+  }
+  .swiper-pagination-bullet-active {
+    background: $color-primary;
+  }
+}

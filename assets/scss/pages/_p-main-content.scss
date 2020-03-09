@@ -1,0 +1,13 @@
+.p-main-content {
+  padding-top: 1.6rem;
+  padding-bottom: 2.4rem;
+
+  @include respond($bp-large) {
+    padding-top: 3.2rem;
+  }
+
+  &__pagination {
+    @include flex-center;
+    margin-top: 1.5rem;
+  }
+}
