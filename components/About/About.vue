@@ -3,13 +3,12 @@
     <div class="about">
       <div class="c-nav">
         <h1 class="nav__title">{{ $t('navAbout') }}</h1>
-        <div class="nav__line"></div>
+        <div class="nav__line" style="width: 128px;"></div>
       </div>
       <div class="about-content">
         <div class="about-content__text">
           {{ $t('navAboutChap1') }} <br><br>
-          {{ $t('navAboutChap2') }} <br><br>
-          {{ $t('navAboutChap3') }}
+          {{ $t('navAboutChap2') }}
         </div>
         <div class="about-content__logo">
           <img src="~/assets/images/about1.png" alt="" style="max-width: 450px; width: 100%">
@@ -20,8 +19,7 @@
           <img src="~/assets/images/about2.png" alt="" style="max-width: 450px; width: 100%">
         </div>
         <div class="about-content__text">
-          {{ $t('navAboutChap4') }} <br><br>    
-          {{ $t('navAboutChap5') }}
+          {{ $t('navAboutChap3') }}
         </div>
       </div>
     </div>
@@ -53,7 +51,6 @@ export default {
     }
 
     .nav__line {
-        width: 45px;
         height: 5px;
         background: #639d00;
     }

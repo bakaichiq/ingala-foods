@@ -18,6 +18,8 @@ export default {
 <style>
   .icon-link__fixed {
     color: #000;
+    text-align: center;
+    margin: 0 5px;
   }
 
   .icon-link__fixed:hover {

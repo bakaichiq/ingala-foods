@@ -48,7 +48,7 @@ export default {
     }
 
     .footer-block {
-        max-width: 30%;
+        max-width: 40%;
         padding: 50px 0;
     }
 
@@ -87,9 +87,13 @@ export default {
 
     .footer-rights {
         width: 100%;
-        font-size: 16px;
+        font-size: 14px;
         background: #E9E9E9;
         line-height: 60px;
+    }
+
+    .footer-block__logo {
+        max-width: 280px;
     }
 
 
