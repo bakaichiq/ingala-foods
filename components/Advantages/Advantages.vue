@@ -3,7 +3,7 @@
         <div class="h-container">
             <div class="c-nav">
                 <h1 class="nav__title">{{ $t('navAdvantages') }}</h1>
-                <div class="nav__line"></div>
+                <div class="nav__line" style="width: 166px;"></div>
             </div>
             <div class="adv-content">
                 <div class="adv-content__item">

@@ -2,7 +2,7 @@
       <div class="contacts" id="contacts">
         <div class="c-nav">
           <h1 class="nav__title">{{ $t('navContacts') }}</h1>
-          <div class="nav__line"></div>
+          <div class="nav__line" style="width: 125px;"></div>
         </div>
         <div class="contacts-content">
           <ul class="contacts-content__list">

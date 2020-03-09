@@ -3,7 +3,7 @@
     <div class="products" id="products">
       <div class="c-nav">
         <h1 class="nav__title">{{ $t('navProducts') }}</h1>
-          <div class="nav__line" style="margin-bottom: 50px;"></div>
+          <div class="nav__line" style="margin-bottom: 50px; width: 126px;"></div>
         </div>
         <div class="products-content">
           <div>
