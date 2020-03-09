@@ -3,7 +3,7 @@
         <div class="h-container">
             <div class="footer-content">
                 <div class="footer-block">
-                    <img src='~/static/logos/ingalalogo.png' alt="">
+                    <img src='~/static/logos/ingalalogo.png' alt="" class="footer-block__logo">
                 </div>
                 <div class="footer-block">
                     <h2 class="footer__title">{{ $t('menu') }}</h2>
@@ -18,10 +18,10 @@
                 <div class="footer-block">
                     <h2 class="footer__title">{{ $t('contacts') }}</h2>
                     <ul class="footer__list">
-                        <li class="footer__item">Mail: info@ingalafoods.com</li>
-                        <li class="footer__item">Tel: +371 26093112</li>
-                        <li class="footer__item">Fax: +371 63452818</li>
-                        <li class="footer__item">Address: Brivibas street 123, Liepaja, Latvia</li>
+                        <li class="footer__item">{{ $t('fMail') }}</li>
+                        <li class="footer__item">{{ $t('fTel') }}</li>
+                        <li class="footer__item">{{ $t('fFax') }}</li>
+                        <li class="footer__item">{{ $t('fAddress') }}</li>
                     </ul>
                 </div>
             </div>
@@ -108,6 +108,10 @@ export default {
         font-size: 10px;
         line-height: 40px;
     }
+
+    .footer-block__logo {
+        display: none;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
@@ -124,6 +128,10 @@ export default {
     .footer-rights {
         font-size: 10px;
         line-height: 40px;
+    }
+
+    .footer-block__logo {
+        display: none;
     }
 }
 </style>

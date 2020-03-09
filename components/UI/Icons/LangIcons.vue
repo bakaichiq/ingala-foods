@@ -1,13 +1,10 @@
 <template>
   <div class="lang-icon">
     <a href="/" class="icon-link">
-      <img src="~/assets/images/icons/english.png" alt="">
+      EN
     </a>
     <a href="/ru" class="icon-link">
-      <img src="~/assets/images/icons/russia.png" alt="">
-    </a>
-    <a href="/tr" class="icon-link">
-      <img src="~/assets/images/icons/turkey.png" alt="">
+      RU
     </a>
   </div>
 </template>
@@ -23,6 +20,30 @@ export default {
     align-items: center;
     display: flex;
     width: 100px;
-    justify-content: space-between;
+    justify-content: center;
   }
+
+  .icon-link {
+    color: #fff;
+    text-align: center;
+    margin: 0 5px;
+  }
+
+  .icon-link:hover {
+    color: #639D00;
+  }
+
+@media screen and (max-width: 480px) {
+  .icon-link {
+    color: #000;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .icon-link {
+    color: #000;
+  }
+}
+
+
 </style>

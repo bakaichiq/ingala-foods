@@ -76,12 +76,7 @@ export default {
         code: 'en',
         iso: 'en',
         file: 'en-US.js'
-      },
-      {
-        code: 'tr',
-        iso: 'tr',
-        file: 'tr-TR.js'
-      },
+      }
     ],
     lazy: true,
     langDir: 'lang/',

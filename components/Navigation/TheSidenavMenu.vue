@@ -74,7 +74,7 @@ export default {
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
    .c-menu {
      display: block;
      margin-left: 30px;
