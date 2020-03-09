@@ -13,7 +13,7 @@
         <div class="c-header--fixed__right">
           <the-menu-black />
           <vertical-align />
-          <lang-icons class="lang-icons" />
+          <lang-icon-black class="lang-icons" />
         </div>
         <div class="h-hidden-desktop">
             <the-sidenav-toggle
@@ -77,6 +77,7 @@ import TheMenuBlack from "~/components/Navigation/TheMenuBlack"
 import VerticalAlign from "~/components/UI/VerticalAlign"
 import SocialIcons from "~/components/UI/Icons/SocialIcons"
 import LangIcons from "~/components/UI/Icons/LangIcons"
+import LangIconBlack from "~/components/UI/Icons/LangIconBlack"
 
 export default {
   components: {
@@ -86,7 +87,8 @@ export default {
     TheMenuBlack,
     VerticalAlign,
     SocialIcons,
-    LangIcons
+    LangIcons,
+    LangIconBlack
   },
   data: () => ({
     isHeaderFixed: false
