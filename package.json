@@ -16,7 +16,7 @@
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.5.0",
     "lazysizes": "^5.2.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "nuxt": "^2.0.0",
     "nuxt-i18n": "^6.5.0",
     "nuxt-validate": "^1.0.1",
